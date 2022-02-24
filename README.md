@@ -1,5 +1,5 @@
 # Omnipay: Example Application
- 
+
 This is an example web application built using the [Silex micro-framework](http://silex.sensiolabs.org/).
 It demonstrates using Omnipay to process payments using all supported payment gateways.
 
@@ -10,15 +10,15 @@ From the root `omnipay` directory, run `composer install`.
 
 ## Configuration
 
-A few gateways are added by default. You can require the gateways you want to test with Composer, eg:
+Only mpesa gateway is installed by default. You can require the gateways you want to test with Composer, eg:
 
 ```
-composer require omnipay/paypal
+composer require omnipay/omnipay-mpesa
 ```
 
 Then add the gateway to the `gateways.php` configuration file.
 
-To test a gateway, you will need to have access to valid credentials. To obtain valid credentials,
+To test Mpesa gateway, you will need to have access to valid credentials. To obtain valid credentials,
 contact the payment gateway's support.
 
 You can configure a gateways settings in the application. All data is stored using regular PHP
