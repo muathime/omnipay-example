@@ -8,6 +8,9 @@ It demonstrates using Omnipay to process payments using all supported payment ga
 To run the example application, you must first install the development dependencies via composer.
 From the root `omnipay` directory, run `composer install`.
 
+## Starting PHP local server
+php -S localhost:8000
+
 ## Configuration
 
 Only mpesa gateway is installed by default. You can require the gateways you want to test with Composer, eg:
