@@ -8,6 +8,9 @@ It demonstrates using Omnipay to process payments using all supported payment ga
 To run the example application, you must first install the development dependencies via composer.
 From the root `omnipay` directory, run `composer install`.
 
+if you do not have composer here is a quick tutorial on how to install it
+https://linuxize.com/post/how-to-install-and-use-composer-on-ubuntu-18-04/
+
 ## Starting PHP local server
 php -S localhost:8000
 
